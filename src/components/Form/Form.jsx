@@ -50,6 +50,7 @@ const Form = () => {
       <form onSubmit={formHandler}>
         <div className="wrapper email-input-wrapper">
           <input
+            id="email-input"
             type="text"
             name="email"
             placeholder="Enter your email"
@@ -59,6 +60,7 @@ const Form = () => {
         </div>
         <div className="wrapper password-input-wrapper">
           <input
+            id="password-input"
             type="password"
             name="password"
             placeholder="Enter your password"
